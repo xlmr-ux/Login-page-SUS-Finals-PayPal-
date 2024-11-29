@@ -17,7 +17,10 @@
       </div>
       <div class="input-group">
         <label for="password">Password</label>
-        <input type="password" id="password" name="password" required>
+        <div style="position: relative;">
+          <input type="password" id="password" name="password" required>
+          <button type="button" id="togglePassword" style="position: absolute; right: 10px; top: 10px; display: none;">Show</button>
+        </div>
       </div>
       <button type="submit" class="login-button">Log In</button>
     </form>
@@ -25,5 +28,6 @@
       <a href="#">Sign Up</a> | <a href="#">Forgot Password?</a>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
