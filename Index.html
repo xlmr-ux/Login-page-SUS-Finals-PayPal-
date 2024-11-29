@@ -10,16 +10,16 @@
   <div class="login-container">
     <img src="paypal-logo.png" alt="PayPal Logo" class="logo">
     <h2>Log In to PayPal</h2>
-    <form action="#" method="POST">
+    <form id="loginForm">
       <div class="input-group">
         <label for="email">Email or Mobile Number</label>
         <input type="text" id="email" name="email" required>
       </div>
       <div class="input-group">
         <label for="password">Password</label>
-        <div style="position: relative;">
+        <div class="password-container">
           <input type="password" id="password" name="password" required>
-          <button type="button" id="togglePassword" style="position: absolute; right: 10px; top: 10px; display: none;">Show</button>
+          <button type="button" id="togglePassword">Show</button>
         </div>
       </div>
       <button type="submit" class="login-button">Log In</button>
